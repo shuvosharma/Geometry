@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    
+</head>
+<body class=" align-middle">
+   <div class="flex m-4 align-middle ">
+    <div class="bg-lime-200 p-4 ">
+        <h1 class="text-2xl font-bold">Triangle</h1>
+        <img src="images/triangle.png">
+        <small>Area (A) = 0.5 x b x h</small><br>
+        <input id="input-1" class="m-3" type="text" placeholder="Input ">cm<br>
+        <input id="input-2" class="m-3" type="text" placeholder="Input">cm<br>
+        <button id="btn-1" class="bg-sky-500 p-1 rounded">Calculation</button><br><br><br>
+        <!-- Rectangle -->
+        <h1 class="text-2xl font-bold">Rectangle</h1>
+        <img src="images/rectangle.png">
+        <small>Area (A) = w x I</small><br><br>
+        <input id="wField" class="m-3" type="text" placeholder="Input">cm<br>
+        <input id="lField" class="m-3" type="text" placeholder="Input">cm<br>
+        <button id="rectangle-btn" class="bg-sky-500 p-1 rounded">Calculation</button>
+    
+       </div>
+        <br><br>
+       
+        <div class="bg-cyan-500 p-5 m-3">
+            <p class="text-2xl font-bold">RESULT</p><br>
+          1. Triangle:<span id="triangle ">00</span><br><br>
+          2. Rectangle:<span id="rectangle">00</span>
+        </div>
+   </div>
+    <script src="calculation.js"></script>
+</body>
+</html>
